@@ -308,7 +308,7 @@ Opening digunakan untuk:
 ![Hasil Opening](screenshots/5_perbandingan_biner_hasilopening.png)
 ```
 
-![Hasil Opening](screenshots/5_perbandingan_biner_hasilopening.png)
+![Hasil Opening](https://github.com/ramzi121006/pengolahan_citra_morfologi/blob/2e416694cd1129c59d304030295a61b24ee343b7/screenshots_morfologi/5_perbandingan_biner_hasilopening.png)
 
 ---
 
