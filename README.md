@@ -60,7 +60,7 @@ Praktikum ini menggunakan beberapa tools dan library berikut:
 # 📂 Struktur Folder Project
 
 ```bash
-Morfologi_Citra
+pengolahan_citra_morfologi
 │
 ├── images
 │   └── sample.jpg
@@ -71,6 +71,14 @@ Morfologi_Citra
 │   ├── dilasi.jpg
 │   ├── opening.jpg
 │   └── closing.jpg
+│
+├── screenshots
+│   ├── 1_gambar_asli.png
+│   ├── 2_grayscale.png
+│   ├── 3_perbandingan_biner_erosi.png
+│   ├── 4_perbandingan_biner_dilasi.png
+│   ├── 5_perbandingan_biner_hasilopening.png
+│   └── 6_perbandingan_biner_hasilclosing.png
 │
 ├── morfologi.py
 └── README.md
@@ -132,6 +140,18 @@ Jika gambar gagal dibaca maka program akan menampilkan pesan error.
 
 ---
 
+# 📸 Gambar Asli
+
+👉 Tampilan gambar asli yang digunakan pada praktikum:
+
+```md
+![Gambar Asli](screenshots/1_gambar_asli.png)
+```
+
+![Gambar Asli](screenshots/1_gambar_asli.png)
+
+---
+
 # 📌 Konversi RGB
 
 ```python
@@ -156,6 +176,18 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 Kode di atas digunakan untuk mengubah gambar menjadi grayscale atau abu-abu.
 
 Konversi grayscale dilakukan karena operasi morfologi lebih efektif digunakan pada citra grayscale atau biner.
+
+---
+
+# 📸 Hasil Grayscale
+
+👉 Tampilan hasil konversi grayscale:
+
+```md
+![Grayscale](screenshots/2_grayscale.png)
+```
+
+![Grayscale](screenshots/2_grayscale.png)
 
 ---
 
@@ -210,13 +242,13 @@ Fungsi erosi:
 
 # 📸 Hasil Erosi
 
-👉 Letakkan gambar hasil erosi di bawah ini:
+👉 Perbandingan antara citra biner dan hasil erosi:
 
 ```md
-![Hasil Erosi](hasil/erosi.jpg)
+![Hasil Erosi](screenshots/3_perbandingan_biner_erosi.png)
 ```
 
-![Hasil Erosi](hasil/erosi.jpg)
+![Hasil Erosi](screenshots/3_perbandingan_biner_erosi.png)
 
 ---
 
@@ -239,13 +271,13 @@ Fungsi dilasi:
 
 # 📸 Hasil Dilasi
 
-👉 Letakkan gambar hasil dilasi di bawah ini:
+👉 Perbandingan antara citra biner dan hasil dilasi:
 
 ```md
-![Hasil Dilasi](hasil/dilasi.jpg)
+![Hasil Dilasi](screenshots/4_perbandingan_biner_dilasi.png)
 ```
 
-![Hasil Dilasi](hasil/dilasi.jpg)
+![Hasil Dilasi](screenshots/4_perbandingan_biner_dilasi.png)
 
 ---
 
@@ -270,13 +302,13 @@ Opening digunakan untuk:
 
 # 📸 Hasil Opening
 
-👉 Letakkan gambar hasil opening di bawah ini:
+👉 Perbandingan antara citra biner dan hasil opening:
 
 ```md
-![Hasil Opening](hasil/opening.jpg)
+![Hasil Opening](screenshots/5_perbandingan_biner_hasilopening.png)
 ```
 
-![Hasil Opening](hasil/opening.jpg)
+![Hasil Opening](screenshots/5_perbandingan_biner_hasilopening.png)
 
 ---
 
@@ -301,13 +333,13 @@ Closing digunakan untuk:
 
 # 📸 Hasil Closing
 
-👉 Letakkan gambar hasil closing di bawah ini:
+👉 Perbandingan antara citra biner dan hasil closing:
 
 ```md
-![Hasil Closing](hasil/closing.jpg)
+![Hasil Closing](screenshots/6_perbandingan_biner_hasilclosing.png)
 ```
 
-![Hasil Closing](hasil/closing.jpg)
+![Hasil Closing](screenshots/6_perbandingan_biner_hasilclosing.png)
 
 ---
 
