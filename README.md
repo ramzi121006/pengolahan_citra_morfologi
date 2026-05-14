@@ -339,7 +339,7 @@ Closing digunakan untuk:
 ![Hasil Closing](screenshots/6_perbandingan_biner_hasilclosing.png)
 ```
 
-![Hasil Closing](screenshots/6_perbandingan_biner_hasilclosing.png)
+![Hasil Closing](https://github.com/ramzi121006/pengolahan_citra_morfologi/blob/e0ca49ca2168286a65b0fb61b0c5fddf66325f31/screenshots_morfologi/6_perbandingan_biner_hasilclosing.png)
 
 ---
 
