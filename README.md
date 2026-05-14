@@ -148,7 +148,7 @@ Jika gambar gagal dibaca maka program akan menampilkan pesan error.
 ![Gambar Asli](screenshots/1_gambar_asli.png)
 ```
 
-![Gambar Asli](screenshots/1_gambar_asli.png)
+![Gambar Asli](https://github.com/ramzi121006/pengolahan_citra_morfologi/blob/db05b70dea06e11f17ced7540447b5ba76770843/screenshots_morfologi/1_gambar_asli.jpeg)
 
 ---
 
